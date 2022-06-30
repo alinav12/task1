@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <div class="container">
+        <h3>TASK 1</h3>
+
+
+        <form action="" method="GET" id="search">
+            <input id="search-input" name="query" placeholder="Find your user!" />
+            <button class="search-button"></button>
+        </form>
+
+        <table id="search-results">
+            <tr>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Birthdate</th>
+            </tr>
+        </table>
+          
+          
+
+        <table id="users-table">
+            <tr>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Birthdate</th>
+            </tr>
+        </table>
+    </div>
+
+    <button id="scroll-to-top"></button>
+</body>
+</html>

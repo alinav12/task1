@@ -1,0 +1,83 @@
+.container{
+    padding: 0 60px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#scroll-to-top{
+    background: url("https://www.pngmart.com/files/15/Arrow-Up-PNG-Pic.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    position: fixed;
+    right: 14px;
+    bottom: 20px;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#scroll-to-top:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+#search{
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#search-input {
+    width: 100%;
+    height: auto;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+  
+#search-input:focus{
+    color: #00B4CC;
+}
+  
+.search-button {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+
+    background: #00B4CC url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OOjs_UI_icon_search-ltr.svg/1200px-OOjs_UI_icon_search-ltr.svg.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#search-results{
+    margin-bottom: 50px;
+    display: none;
+}
+  
